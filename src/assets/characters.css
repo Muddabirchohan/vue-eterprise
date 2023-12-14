@@ -1,0 +1,45 @@
+.charactersParent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 80px;
+    column-gap: 80px;
+}
+
+.singleCharacter {
+    /* padding: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: red; */
+    
+}
+
+/* .singleCharacter img {
+    height: 300px;
+    width: 300px;
+} */
+
+
+.buy-button {
+    width: 100%;
+
+}
+
+@media (hover: hover) {
+    a:hover {
+        background-color: hsla(160, 100%, 37%, 0.2);
+    }
+}
+
+@media (min-width: 1024px) {
+    /* body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  } */
+}
