@@ -2,6 +2,7 @@
 
 import { ref, onMounted } from 'vue';
 import "./../assets/characters.css"
+import CharacterDetail from './CharacterDetail.vue';
 
 
 interface ListItem {
@@ -48,11 +49,7 @@ getData()
     <div v-if="isLoading">Loading...</div>
     <div class="charactersParent">
         <div v-for="item in listItems" class="singleCharacter">
-            <v-card class="mx-auto" max-width="200" height="200"
-                title="Card title" theme="dark">
-                <img :src="item.image" /> 
-                <button class="buy-button"> buy </button>
-            </v-card>
+            <CharacterDetail  :item="item"/>
         </div>
     </div>
 </template>

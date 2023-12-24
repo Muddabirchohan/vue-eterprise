@@ -15,9 +15,12 @@ import  ListVue from './components/List.vue';
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
+    
     </div>
+
   </header> -->
-  <ListVue/>
+  <!-- <ListVue/> -->
+  <RouterView/>
   <!-- <RouterView /> -->
 </template>
 
